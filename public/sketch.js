@@ -1,7 +1,7 @@
 function setup() {
   noCanvas();
-  const video = createCanvas(640, 420);
-  video.background(200);
+  const video = createCanvas(windowWidth, windowHeight);
+  video.background(255);
   // let lat, lon;
 
   const button = document.getElementById('submit');
