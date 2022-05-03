@@ -8,10 +8,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
     <script src="logs/updateWin.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Document</title>
+    <title>Canvas</title>
   </head>
-  <body>
-    <button id="submit" onclick="updateWindow()">Del dine tanker →</button>
-    <script src="sketch.js"></script>
+  <body class="canvas-body">
+    <h1>Hvad fylder for dig i dag? Skriv dine tanker og del dem annonymt.</h1>
+    <div class="buttons">
+      <button id="submit" onclick="updateWindow()">Del dine tanker →</button>
+      <button id="slet" onclick="updateWindow()">Slet</button>
+    </div>
+    <script class="canvas-area" src="sketch.js"></script>
   </body>
 </html>

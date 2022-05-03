@@ -2,11 +2,15 @@ img {
   width: 250px;
 }
 
-body {
+.logs-body {
+  background-color: #F5F5F5;
   display: flex;
   flex-wrap: wrap;
-  background-color: #ffffff;
   margin: 20px;
+}
+
+.canvas-body {
+  margin: 0px;
 }
 
 p {
@@ -14,13 +18,37 @@ p {
   margin: 0;
 }
 
-button {
+.buttons {
+  display: flex;
+  width: 250px;
+  margin: 0 auto;
+}
+
+#submit {
   padding: 10px 20px 10px 20px;
   background-color: #000000;
   color: #ffffff;
   border: none;
   border-radius: 50px;
-  position: absolute;
-  margin: 20px;
   font-weight: 700;
+  margin: 0px auto 25px;
+  display:block;
+}
+
+#slet {
+  padding: 10px 20px 10px 20px;
+  background-color: #E33236;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  margin: 0px auto 25px;
+  display:block;
+}
+
+h1 {
+  font-family: 'Helvetica', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
 }
